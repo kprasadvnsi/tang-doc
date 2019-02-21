@@ -8,6 +8,6 @@ pre = "<b>1. </b>"
 
 ### Chapter 1
 
-# Some Chapter title
+# Getting Started
 
-Lorem Ipsum.
+Find out how to getting started with Lichee Tang board.
