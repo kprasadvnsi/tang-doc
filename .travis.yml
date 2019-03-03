@@ -6,7 +6,8 @@ go:
 # before_install
 # install - install any dependencies required
 install:
-    - go get github.com/gohugoio/hugo    # consume time 70.85s
+    - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_0.54.0_Linux-64bit.deb
+    - sudo dpkg -i /tmp/hugo.deb
 
 before_script:
     - rm -rf public 2> /dev/null
