@@ -9,4 +9,7 @@ draft: false
 
 ## Resources
 
-{{%attachments style="green" /%}}
+#### Attachments:
++ [2640-XT400G2.pdf](http://dl.sipeed.com/MAIX/HDK/Chip_DS/2640-XT400G2.pdf)
+
++ [OV2640-DATASHEET.pdf](http://dl.sipeed.com/MAIX/HDK/Chip_DS/OV2640-DATASHEET.pdf)
