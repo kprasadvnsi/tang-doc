@@ -1,7 +1,7 @@
 ---
 title: "Install on Linux"
 date: 2019-02-15T19:16:47+05:30
-draft: true
+draft: false
 ---
 
 Once you have downloaded the installer archive, open Terminal and cd into that directory.

@@ -2,7 +2,7 @@
 title: "Installing Tang Dynasty IDE"
 date: 2019-02-15T19:18:45+05:30
 weight: 7
-draft: true
+draft: false
 ---
 
 Find out how to install **Tang Dynasty IDE** on Windows and Linux.

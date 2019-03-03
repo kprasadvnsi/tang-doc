@@ -2,7 +2,7 @@
 title: "Requirements"
 date: 2019-02-15T19:15:00+05:30
 weight: 6
-draft: true
+draft: false
 ---
 
 Thanks to the simplicity of Tang Dynasty FPGA development environment, Lichee Tang need very few things to getting started.

@@ -1,7 +1,7 @@
 ---
 title: "Install TD driver on Windows"
 date: 2019-02-15T19:21:19+05:30
-draft: true
+draft: false
 ---
 
 ## Check for default windows driver

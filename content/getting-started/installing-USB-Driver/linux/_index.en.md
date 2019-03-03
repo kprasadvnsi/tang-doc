@@ -1,7 +1,7 @@
 ---
 title: "Install TD driver on Linux"
 date: 2019-02-15T19:21:27+05:30
-draft: true
+draft: false
 ---
 
 ## Check for default linux driver

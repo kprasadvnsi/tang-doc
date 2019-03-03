@@ -1,7 +1,7 @@
 ---
 title: "Getting to Blinky"
 date: 2019-02-15T19:23:03+05:30
-draft: true
+draft: false
 ---
 
 Blinky example is good way to test the setup. Following example will blink the Tang's onboard RGB LED.

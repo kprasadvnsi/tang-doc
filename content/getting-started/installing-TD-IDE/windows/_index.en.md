@@ -1,7 +1,7 @@
 ---
 title: "Install on Windows"
 date: 2019-02-15T19:16:37+05:30
-draft: true
+draft: false
 ---
 
 Once you have downloaded the installer, open it and you will see a welcome screen.
