@@ -14,7 +14,7 @@ before_script:
 # script - run the build script
 script:
     - hugo
-#    - echo "$CNAME_URL" > public/CNAME
+    - echo "$CNAME_URL" > public/CNAME
 
 deploy:
   provider: pages
