@@ -5,3 +5,4 @@ weight: 8
 draft: true
 ---
 
+![RV Debugger](/hardware-overview/RV-debugger/images/rvdebugger.jpg?width=30pc "RV Debugger")

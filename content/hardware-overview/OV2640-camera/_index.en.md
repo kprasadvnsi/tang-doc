@@ -5,3 +5,8 @@ weight: 6
 draft: true
 ---
 
+![ov2640](/hardware-overview/OV2640-camera/images/ov2640.jpg "OV2640 module")
+
+## Resources
+
+{{%attachments style="green" /%}}

@@ -1,4 +1,3 @@
-baseURL = "http://31.220.43.197/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Documentation for Lichee Tang"
@@ -8,9 +7,9 @@ metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
 [params]
-  editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
-  description = "Documentation for Hugo Learn Theme"
-  author = "Mathieu Cornic"
+  editURL = "https://github.com/kprasadvnsi/tang-doc/tree/master/content/"
+  description = "Documentation for Lichee Tang"
+  author = "Kali Prasad"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
@@ -21,7 +20,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "Documentation for Hugo Learn Theme"
+title = "Documentation for Lichee Tang"
 weight = 1
 languageName = "English"
 
@@ -42,30 +41,25 @@ name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
 url = "/credits"
 weight = 30
 
-[Languages.fr]
-title = "Documentation du thème Hugo Learn"
+[Languages.cn]
+title = "Lichee Tang的文档"
 weight = 2
-languageName = "Français"
+languageName = "中文"
 
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fab fa-fw fa-github'></i> Repo Github"
+[[Languages.cn.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> Github回购"
 identifier = "ds"
-url = "https://github.com/matcornic/hugo-theme-learn"
+url = "https://github.com/Lichee-Pi"
 weight = 10
 
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-camera'></i> Vitrine"
-url = "/showcase"
-weight = 11
-
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bookmark'></i> Documentation Hugo"
-identifier = "hugodoc"
-url = "https://gohugo.io/"
+[[Languages.cn.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-shopping-bag'></i> 商店"
+identifier = "shop"
+url = "https://shop365481095.taobao.com/index.htm?spm=2013.1.w5002-21231188680.2.42784df62apCPo"
 weight = 20
 
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bullhorn'></i> Crédits"
+[[Languages.cn.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> 积分"
 url = "/credits"
 weight = 30
 

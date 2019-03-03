@@ -5,3 +5,4 @@ weight: 7
 draft: true
 ---
 
+![lcd](/hardware-overview/LCD-display/images/lcd.jpg "lcd")
