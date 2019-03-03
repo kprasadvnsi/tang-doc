@@ -9,7 +9,7 @@ Thanks to the simplicity of Tang Dynasty FPGA development environment, Lichee Ta
 
 ## Getting the Tang Dinesty IDE
 
-Just download latest version of Tang Dynasty IDE for your OS (Windows, Linux) from [here](https://pan.baidu.com/s/1LaYo2UrDx6QPIc6VkfdsHA): it’s that simple.
+Just download latest version of Tang Dynasty IDE for your OS (Windows, Linux) from [here](http://dl.sipeed.com/TANG/Primer/IDE/): it’s that simple.
 
 ## Getting Example Code
 
