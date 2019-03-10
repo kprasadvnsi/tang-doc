@@ -7,7 +7,7 @@ draft: false
 
 ## The Lichee Tang at a Glance
 
-![Lichee Tang at a Glance](/hardware-overview/lichee-tang/images/E203_function.png "Lichee Tang at a Glance")
+![Lichee Tang at a Glance](/hardware-overview/lichee-tang/images/TANG_DD.jpg "Lichee Tang at a Glance")
 
 Lichee Tang uses Anlogic's EG4S20 as the core unit, 20K logic unit (LUT4/LUT5 hybrid architecture), approximately 130KB SRAM, built-in 32bit bit width 64MBit SDRAM, rich LVDS pin, built-in 12-bit 1MSPS ADC This provides unlimited possibilities for Lichee Tang:
 
