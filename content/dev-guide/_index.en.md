@@ -8,6 +8,9 @@ pre = "<b>5. </b>"
 
 ### Chapter 5
 
-# Some Chapter title
+# Developer Guide
 
-Lorem Ipsum.
+Here we’ll cover topics related to RISC-V and Tang platform development.
+
+1. [Buinding RISC-V SoftCore](/en/dev-guide/building-rv-core)
+2. [Using Yosys with Lichee Tang](/en/dev-guide/using-yosys)
