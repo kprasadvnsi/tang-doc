@@ -6,3 +6,8 @@ draft: false
 ---
 
 ![RV Debugger](/hardware-overview/RV-debugger/images/rvdebugger.jpg?width=30pc "RV Debugger")
+
+## Resources
+
+#### Attachments:
++ [FT2232D(Schematic).pdf](http://dl.sipeed.com/TANG/Primer/HDK/FT2232D%28Schematic%29.pdf)
