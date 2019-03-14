@@ -43,7 +43,7 @@ We need to first setup proper permissions to access USB Debugger.
 Add your username to plugdev group. Replace `<username>` with your present working system's username.
 
 ```
-sudo usermod –a –G plugdev <username>
+sudo usermod -a -G plugdev <username>
 ```
 
 Set udev rules to enable LicheeTang to be accessed by the plugdev group,
