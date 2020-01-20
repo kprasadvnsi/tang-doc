@@ -26,9 +26,9 @@ The installation is successful and can be seen in the device manager.
 
 ![Install success](/getting-started/installing-USB-Driver/windows/images/installsuccess.png "Install success")
 
-## Check if device detacted by Tang Dynasty IDE
+## Check if device detected by Tang Dynasty IDE
 
-Click on Download buttion as shown in following image.
+Click on Download button as shown in following image.
 
 ![TD GUI Mode](/getting-started/installing-USB-Driver/linux/images/87078310026779781.jpg "Tang Dynasty SDK in GUI Mode.")
 
