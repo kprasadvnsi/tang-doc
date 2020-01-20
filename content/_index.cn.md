@@ -1,10 +1,10 @@
 ---
-title: "Lichee Tang Documentation"
+title: "Tang Primer Documentation"
 ---
 
-# Lichee Tang Docs
+# Tang Primer Docs
 
-Lichee Tang, an extremely polished domestic open source RISC-V development board.
+Tang Primer, an extremely polished domestic open source RISC-V development board.
 
 Litchi sugar was born in the tide of domestic chip oscillations. After three months of growth and transformation, it finally reached the stage of open source in July 2018.
 

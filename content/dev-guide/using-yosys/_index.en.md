@@ -1,5 +1,5 @@
 ---
-title: "Using Yosys with Lichee Tang"
+title: "Using Yosys with Tang Primer"
 date: 2019-03-10T15:51:32+05:30
 ---
 
@@ -53,4 +53,4 @@ Finally, we are ready to build our demo.
 cd examples/anlogic/
 bash build.sh
 ```
-This build will produce demo.bit that can be download into Lichee Tang via TD Download tool.
+This build will produce demo.bit that can be download into Tang Primer via TD Download tool.

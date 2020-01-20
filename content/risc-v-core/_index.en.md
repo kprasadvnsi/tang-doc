@@ -10,7 +10,7 @@ pre = "<b>4. </b>"
 
 # Working with RISC-V
 
-Here you can learn more about different RISC-V Implementations ported to Lichee Tang board. This chapter covers the basics of using these RV cores and some examples to get you started on awesome RISC-V ISA.
+Here you can learn more about different RISC-V Implementations ported to Tang Primer board. This chapter covers the basics of using these RV cores and some examples to get you started on awesome RISC-V ISA.
 
 1. [Hummingbird Core](/en/risc-v-core/hummingbird)
 2. [PicoRV32 Core](/en/risc-v-core/picorv32)

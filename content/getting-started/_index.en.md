@@ -10,7 +10,7 @@ pre = "<b>1. </b>"
 
 # Getting Started
 
-Find out how to getting started with Lichee Tang board.
+Find out how to getting started with Tang Primer board.
 
 1. [Requirements](/en/getting-started/requirements)
 2. [Installing Tang Dynasty IDE](/en/getting-started/installing-td-ide)

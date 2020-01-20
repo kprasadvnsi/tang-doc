@@ -26,7 +26,7 @@ You will need **lrzip** for the above command to work. Install it using the foll
 
 ## Compile the demo program
 
-We are going to Compile a GPIO demo that Blinks the Onboard LED on Lichee Tang.
+We are going to Compile a GPIO demo that Blinks the Onboard LED on Tang Primer.
 
 Use the following cammand to compile the Demo.
 
@@ -46,7 +46,7 @@ Add your username to plugdev group. Replace `<username>` with your present worki
 sudo usermod -a -G plugdev <username>
 ```
 
-Set udev rules to enable LicheeTang to be accessed by the plugdev group,
+Set udev rules to enable Tang Primer to be accessed by the plugdev group,
 
 Execute the following command in terminal to create a new udev rules file.
 
@@ -69,9 +69,9 @@ sudo service udev restart
 
 Press `ctrl+x` to save the file
 
-Connect Lichee Tang with RV Debugger as shown below.
+Connect Tang Primer with RV Debugger as shown below.
 
-|   Lichee Tang   | RV Debugger |
+|   Tang Primer   | RV Debugger |
 | --------------- | ----------- |
 | U0_RX (Pin H13) | TX          |
 | U0_TX (Pin J13) | RX          |

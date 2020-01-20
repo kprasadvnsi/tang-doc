@@ -1,17 +1,17 @@
 ---
-title: "Lichee Tang board"
+title: "Tang Primer board"
 date: 2019-02-15T20:10:53+05:30
 weight: 5
 draft: false
 ---
 
-## The Lichee Tang at a Glance
+## The Tang Primer at a Glance
 
-![Lichee Tang at a Glance](/hardware-overview/lichee-tang/images/TANG_DD.jpg "Lichee Tang at a Glance")
+![Tang Primer at a Glance](/hardware-overview/lichee-tang/images/TANG_DD.jpg "Tang Primer at a Glance")
 
-Lichee Tang uses Anlogic's EG4S20 as the core unit, 20K logic unit (LUT4/LUT5 hybrid architecture), approximately 130KB SRAM, built-in 32bit bit width 64MBit SDRAM, rich LVDS pin, built-in 12-bit 1MSPS ADC This provides unlimited possibilities for Lichee Tang:
+Tang Primer uses Anlogic's EG4S20 as the core unit, 20K logic unit (LUT4/LUT5 hybrid architecture), approximately 130KB SRAM, built-in 32bit bit width 64MBit SDRAM, rich LVDS pin, built-in 12-bit 1MSPS ADC This provides unlimited possibilities for Tang Primer:
 
-## Lichee Tang features
+## Tang Primer features
 
 + FPC40P socket, can be connected to RGB LCD, VGA adapter board, high speed DAC module.
 + FPC24P socket, can be connected to DVP camera, high speed ADC module.
@@ -26,13 +26,13 @@ Lichee Tang uses Anlogic's EG4S20 as the core unit, 20K logic unit (LUT4/LUT5 hy
 
 ## Pinouts
 
-Pinout for **New** Lichee Tang Board.
+Pinout for **New** Tang Primer Board.
 
-![Lichee Tang at a Glance](/hardware-overview/lichee-tang/images/newtang_pinout.png?width=45pc "Lichee Tang at a Glance")
+![Tang Primer at a Glance](/hardware-overview/lichee-tang/images/newtang_pinout.png?width=45pc "Tang Primer at a Glance")
 
-Pinout for **Old** Lichee Tang Board.
+Pinout for **Old** Tang Primer Board.
 
-![Lichee Tang at a Glance](/hardware-overview/lichee-tang/images/E203_pin.png "Lichee Tang at a Glance")
+![Tang Primer at a Glance](/hardware-overview/lichee-tang/images/E203_pin.png "Tang Primer at a Glance")
 
 ## Resources
 

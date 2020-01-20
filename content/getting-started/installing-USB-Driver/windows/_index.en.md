@@ -6,7 +6,7 @@ draft: false
 
 ## Check for default windows driver
 
-Insert LicheeTang into your computer and open Device Manager to see the information. Make sure USB VID:PID is `0547:1002`.
+Insert Tang Primer into your computer and open Device Manager to see the information. Make sure USB VID:PID is `0547:1002`.
 
 ![device manager](/getting-started/installing-USB-Driver/windows/images/no_driver.png "Check for default windows driver.")
 
@@ -32,7 +32,7 @@ Click on Download buttion as shown in following image.
 
 ![TD GUI Mode](/getting-started/installing-USB-Driver/linux/images/87078310026779781.jpg "Tang Dynasty SDK in GUI Mode.")
 
-Plugin LicheeTang into your computer and hit Refresh buttion on Download Dialog box.
+Plugin Tang Primer into your computer and hit Refresh buttion on Download Dialog box.
 
 ![TD Download Dialog](/getting-started/installing-USB-Driver/linux/images/1823555291194601.jpg "Bitstream Download Dialog")
 

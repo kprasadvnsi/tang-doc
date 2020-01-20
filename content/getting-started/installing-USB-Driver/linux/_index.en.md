@@ -6,13 +6,13 @@ draft: false
 
 ## Check for default linux driver
 
-Insert LicheeTang into your computer and execute lsusb to see the information. Make sure USB VID:PID is `0547:1002` as shown in image below.
+Insert Tang Primer into your computer and execute lsusb to see the information. Make sure USB VID:PID is `0547:1002` as shown in image below.
 
 ![lsusb](/getting-started/installing-USB-Driver/linux/images/237929105611360081.jpg "Check for default linux driver.")
 
 ## Create a new udev rule file
 
-Set udev rules to enable LicheeTang to be accessed by the plugdev group
+Set udev rules to enable Tang Primer to be accessed by the plugdev group
 
 Execute the following command in terminal to create a new udev rules file.
 
@@ -45,7 +45,7 @@ Click on Download buttion as shown in following image.
 
 ![TD GUI Mode](/getting-started/installing-USB-Driver/linux/images/87078310026779781.jpg "Tang Dynasty SDK in GUI Mode.")
 
-Plugin LicheeTang into your computer and hit Refresh buttion on Download Dialog box.
+Plugin Tang Primer into your computer and hit Refresh buttion on Download Dialog box.
 
 ![TD Download Dialog](/getting-started/installing-USB-Driver/linux/images/1823555291194601.jpg "Bitstream Download Dialog")
 

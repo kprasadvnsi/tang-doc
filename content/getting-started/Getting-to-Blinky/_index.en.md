@@ -4,7 +4,7 @@ date: 2019-02-15T19:23:03+05:30
 draft: false
 ---
 
-Blinky example is good way to test the setup. Following example will blink the Tang's onboard RGB LED.
+Blinky example is good way to test the setup. Following example will blink the Tang Primer's onboard RGB LED.
 
 Get blinky example code from github.com 
 
@@ -42,9 +42,9 @@ If compilation successful you will see the Console log as shown in picture below
 
 ![Console log](/getting-started/Getting-to-Blinky/images/d.png "Console log")
 
-## Download Bitstrean to Lichee Tang.
+## Download Bitstrean to Tang Primer.
 
-Plug in you Lichee Tang board to USB and click on **Download** icon to open Download Dialog. 
+Plug in you Tang Primer board to USB and click on **Download** icon to open Download Dialog. 
 
 ![Open Download box](/getting-started/Getting-to-Blinky/images/d1.jpg "Open Download box")
 

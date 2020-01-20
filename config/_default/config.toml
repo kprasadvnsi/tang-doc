@@ -1,6 +1,6 @@
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Documentation for Lichee Tang"
+title = "Documentation for Tang Primer"
 theme = "hugo-theme-learn"
 
 metaDataFormat = "yaml"
@@ -8,7 +8,7 @@ defaultContentLanguageInSubdir= true
 
 [params]
   editURL = "https://github.com/kprasadvnsi/tang-doc/tree/master/content/"
-  description = "Documentation for Lichee Tang"
+  description = "Documentation for Tang Primer"
   author = "Kali Prasad"
   showVisitedLinks = true
   disableBreadcrumb = false
@@ -20,7 +20,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "Documentation for Lichee Tang"
+title = "Documentation for Tang Primer"
 weight = 1
 languageName = "English"
 
@@ -42,7 +42,7 @@ url = "/credits"
 weight = 30
 
 [Languages.cn]
-title = "Lichee Tang的文档"
+title = "Tang Primer的文档"
 weight = 2
 languageName = "中文"
 

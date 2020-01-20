@@ -1,6 +1,6 @@
 # tang-doc
 
-Documentation for Lichee Tang
+Documentation for Tang Primer
 
 [![Build Status](https://travis-ci.org/kprasadvnsi/tang-doc.svg?branch=master)](https://travis-ci.org/kprasadvnsi/tang-doc)
 

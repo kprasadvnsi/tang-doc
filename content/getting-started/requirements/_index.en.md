@@ -5,7 +5,7 @@ weight: 6
 draft: false
 ---
 
-Thanks to the simplicity of Tang Dynasty FPGA development environment, Lichee Tang needs very few things to get started.
+Thanks to the simplicity of Tang Dynasty FPGA development environment, Tang Primer needs very few things to get started.
 
 ## Getting the Tang Dinasty IDE
 
@@ -13,7 +13,7 @@ Just download the latest version of Tang Dynasty IDE for your OS (Windows, Linux
 
 ## Getting Example Code
 
-Lichee Tang comes with a lot of examples. They can be downloaded from [here](https://github.com/Lichee-Pi/Tang_FPGA_Examples).
+Tang Primer comes with a lot of examples. They can be downloaded from [here](https://github.com/Lichee-Pi/Tang_FPGA_Examples).
 
 ## Other Resources
 

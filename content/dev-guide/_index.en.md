@@ -10,7 +10,7 @@ pre = "<b>5. </b>"
 
 # Developer Guide
 
-Here we’ll cover topics related to RISC-V and Tang platform development.
+Here we’ll cover topics related to RISC-V and Tang Primer FPGA platform development.
 
 1. [Buinding RISC-V SoftCore](/en/dev-guide/building-rv-core)
-2. [Using Yosys with Lichee Tang](/en/dev-guide/using-yosys)
+2. [Using Yosys with Tang Primer](/en/dev-guide/using-yosys)

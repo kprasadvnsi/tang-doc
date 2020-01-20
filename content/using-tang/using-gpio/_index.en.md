@@ -9,7 +9,7 @@ draft: false
 
 In the Menubar goto **Project -> New Project** or use the shortcut key **Ctrl+Alt+P**.
 
-Select **Device Family** and **Device Name** for Lichee Tang as shown below.
+Select **Device Family** and **Device Name** for Tang Primer as shown below.
 
 ![New Project](/using-tang/using-gpio/images/a.png "New Project")
 
@@ -52,7 +52,7 @@ Click on **Run** Icon to start compilation process.
 
 ![O](/using-tang/using-gpio/images/h.png "O")
 
-Plug in you Lichee Tang board to USB and click on **Download** icon to open Download Dialog. 
+Plug in you Tang Primer board to USB and click on **Download** icon to open Download Dialog. 
 
 ![Open Download box](/getting-started/Getting-to-Blinky/images/d1.jpg "Open Download box")
 
