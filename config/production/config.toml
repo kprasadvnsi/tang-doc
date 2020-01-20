@@ -1,2 +1,2 @@
 baseURL = "https://tang.sipeed.com/"
-canonifyURLs = "true"
+canonifyURLs = "false"
