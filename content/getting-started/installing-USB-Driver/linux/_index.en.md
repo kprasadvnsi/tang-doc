@@ -50,7 +50,7 @@ Plugin Tang Primer into your computer and hit Refresh buttion on Download Dialog
 ![TD Download Dialog](/getting-started/installing-USB-Driver/linux/images/1823555291194601.jpg "Bitstream Download Dialog")
 
 {{% notice info %}}
-Due to some unknown bug, JTAG work only with 400kbps or lower speed.
+Due to some unknown bug, JTAG only works with 400kbps or lower speed.
 {{% /notice %}}
 
 Congratulations, you have setup the TD driver on Linux.
