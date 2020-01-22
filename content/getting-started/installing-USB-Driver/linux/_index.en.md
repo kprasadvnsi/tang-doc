@@ -34,7 +34,7 @@ Execute the following command in terminal to restart the udev service.
 sudo service udev restart
 ```
 
-## Check if device detacted by Tang Dynasty IDE
+## Check if device detected by Tang Dynasty IDE
 
 Go to `<TD installation directory>/bin/` and execute the following command to open TD IDE in GUI mode.
 
