@@ -7,9 +7,9 @@ draft: false
 
 ## Create a new project
 
-In the Menubar goto **Project -> New Project** or use the shortcut key **Ctrl+Alt+P**.
+In the Menubar goto **Project -> New Project** or uses the shortcut key **Ctrl+Alt+P**.
 
-Fill in the **Project Name** and **Project Path** fields. Note that you may create a new directory (such as "gpio_test") by clicking on **Browse** and then clicking on the **Create New Folder** icon in the "choose a directory" window. It's generally recommended to keep eack project in its own separate directory.
+Fill in the **Project Name** and **Project Path** fields. Note that you may create a new directory (such as "gpio_test") by clicking on **Browse** and then clicking on the **Create New Folder** icon in the "choose a directory" window. It's generally recommended to keep each project in its separate directory.
 
 Select **Device Family** and **Device Name** for Tang Primer as shown below. When done, click **OK**.
 
@@ -17,7 +17,7 @@ Select **Device Family** and **Device Name** for Tang Primer as shown below. Whe
 
 ## Create a new HDL source file.
 
-Right click on **Hierarchy** and click on **New Source** to make a new HDL source file.
+Right-click on **Hierarchy** and click on **New Source** to make a new HDL source file.
 
 ![O](/using-tang/using-gpio/images/b.png "O")
 
@@ -25,7 +25,7 @@ Select the HDL **File Type** and enter a source file name in the **File Name** f
 
 ![O](/using-tang/using-gpio/images/c.png "O")
 
-Copy the following code into text editor and save it, as shown in following image.
+Copy the following code into a text editor and save it, as shown in the following image.
 
 ```toml
 module gpio_main
@@ -45,23 +45,23 @@ Now we need to assign physical Pins to our IO ports. In the **FPGA Flow** pane, 
 
 ![O](/using-tang/using-gpio/images/e.png "O")
 
-Select the **IO Bank** and **Pin Location** for Tang's onboard LED and Button then save it as adc file in the project.
+Select the **IO Bank** and **Pin Location** for Tang's onboard LED and Button then save it as an adc file in the project.
 
 ![O](/using-tang/using-gpio/images/f.png "O")
 ![O](/using-tang/using-gpio/images/g.png "O")
 
-Click on **Run** Icon to start compilation process.
+Click on **Run** Icon to start the compilation process.
 
 ![O](/using-tang/using-gpio/images/h.png "O")
 
-Plug in you Tang Primer board to USB and click on **Download** icon to open Download Dialog. 
+Plugin your Tang Primer board to USB and click on **Download** icon to open Download Dialog. 
 
 ![Open Download box](/getting-started/Getting-to-Blinky/images/d1.jpg "Open Download box")
 
-Make sure your device detacted by TD IDE. Add generated bitstream file by clicking on **Add** button. Click on **Run** button to start Download process.
+Make sure your device detected by TD IDE. Add generated bitstream file by clicking on the **Add** button. Click on the **Run** button to start the download process.
 
 ![O](/using-tang/using-gpio/images/i.png "O")
 
-Download the Bitstream into SPI Flash to make your design run after power reset. 
+Download the Bitstream into SPI Flash to make your design run after a power reset. 
 
 ![O](/using-tang/using-gpio/images/j.png "O")
