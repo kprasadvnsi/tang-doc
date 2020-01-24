@@ -25,7 +25,7 @@ Select the HDL **File Type** and enter a source file name in the **File Name** f
 
 ![O](/using-tang/using-gpio/images/c.png "O")
 
-Copy the following code into a text editor and save it, as shown in the following image.
+**Copy** the following code into a text editor and **Save** it, as shown in the following image.
 
 ```toml
 module gpio_main
