@@ -9,17 +9,19 @@ draft: false
 
 In the Menubar goto **Project -> New Project** or use the shortcut key **Ctrl+Alt+P**.
 
-Select **Device Family** and **Device Name** for Tang Primer as shown below.
+Fill in the **Project Name** and **Project Path** fields. Note that you may create a new directory (such as "gpio_test") by clicking on **Browse** and then clicking on the **Create New Folder** icon in the "choose a directory" window. It's generally recommended to keep eack project in its own separate directory.
+
+Select **Device Family** and **Device Name** for Tang Primer as shown below. When done, click **OK**.
 
 ![New Project](/using-tang/using-gpio/images/a.png "New Project")
 
 ## Create a new HDL source file.
 
-Right click on **Hierarchy** and click on **New Source** to make new HDL source file.
+Right click on **Hierarchy** and click on **New Source** to make a new HDL source file.
 
 ![O](/using-tang/using-gpio/images/b.png "O")
 
-Select the HDL **File Type** and put source **File Name**. Check **Add To Project** to add this file to your project.
+Select the HDL **File Type** and enter a source file name in the **File Name** field. Check **Add To Project** to add this file to your project. Click **OK**.
 
 ![O](/using-tang/using-gpio/images/c.png "O")
 
@@ -39,7 +41,7 @@ endmodule
 
 ![O](/using-tang/using-gpio/images/d.png "O")
 
-Now we need to assign physical Pins to our IO ports. Double click on **IO Constraint** to open IO Constraint Dialog.
+Now we need to assign physical Pins to our IO ports. In the **FPGA Flow** pane, if there is a "+" to the left of **User Constraints**, click on the "+" to show the **IO Constraint** and **SDC Constraint** items. Double click on **IO Constraint** to open the IO Constraint Dialog.
 
 ![O](/using-tang/using-gpio/images/e.png "O")
 
