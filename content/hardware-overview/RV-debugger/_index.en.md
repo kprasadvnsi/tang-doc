@@ -9,5 +9,4 @@ draft: false
 
 ## Resources
 
-#### Attachments:
-+ [FT2232D(Schematic).pdf](http://dl.sipeed.com/TANG/Primer/HDK/FT2232D%28Schematic%29.pdf)
+{{% attachments /%}}

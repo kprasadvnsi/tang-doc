@@ -36,9 +36,4 @@ Pinout for **Old** Tang Primer Board.
 
 ## Resources
 
-#### Attachments:
-+ [EG4S20_DataSheet_V1.5_english.pdf](https://github.com/kprasadvnsi/Anlogic_Doc_English/raw/master/EG4S20_DataSheet_V1.5_english.pdf)
-
-+ [Eagle_DataSheet_V2.8_english.pdf](https://github.com/kprasadvnsi/Anlogic_Doc_English/raw/master/Eagle_DataSheet_V2.8_english.pdf)
-
-+ [LicheeTang+RV.pdf](http://dl.sipeed.com/TANG/Primer/HDK/LicheeTang_RV.pdf)
+{{% attachments /%}}
