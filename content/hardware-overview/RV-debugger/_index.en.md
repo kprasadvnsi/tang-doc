@@ -9,4 +9,5 @@ draft: false
 
 ## Resources
 
-{{% attachments /%}}
+#### Attachments:
++ [FT2232D(Schematic).pdf](https://github.com/kprasadvnsi/tang-doc/releases/download/1.0.0/FT2232D.Schematic.pdf)

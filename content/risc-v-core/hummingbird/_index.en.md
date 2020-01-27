@@ -9,7 +9,7 @@ draft: false
 
 We have assembled an All-In-One SDK that includes SiRV-SDK Toolchain, and OpenOCD. You can download the SDK from given link below.
 
-<i class="fas fa-download"></i> [sirv-e-sdk.tar.lrz](http://dl.sipeed.com/TANG/Primer/SDK/sirv-e-sdk.tar.lrz)
+<i class="fas fa-download"></i> [sirv-e-sdk.tar.lrz](https://github.com/kprasadvnsi/tang-doc/releases/download/1.0.0/sirv-e-sdk.tar.lrz)
 
 ## Configuring the working environment
 

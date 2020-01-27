@@ -11,4 +11,5 @@ This 5.0” TFT screen comes with 800x480 pixel resolution and an LED backlight.
 
 ## Resources
 
-{{% attachments /%}}
+#### Attachments:
++ [AT050TN43_V_1_Pre_Ver01_20100511.pdf](https://github.com/kprasadvnsi/tang-doc/releases/download/1.0.0/AT050TN43.V.1.Pre.Ver01.20100511.A050-43-TT-11._201102115899.pdf)

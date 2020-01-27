@@ -25,4 +25,7 @@ draft: false
 
 ## Resources
 
-{{% attachments /%}}
+#### Attachments:
++ [2640-XT400G2.pdf](https://github.com/kprasadvnsi/tang-doc/releases/download/1.0.0/2640-XT400G2.pdf)
+
++ [OV2640-DATASHEET.pdf](https://github.com/kprasadvnsi/tang-doc/releases/download/1.0.0/OV2640-DATASHEET.pdf)
