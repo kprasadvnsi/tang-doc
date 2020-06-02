@@ -9,7 +9,7 @@ Thanks to the simplicity of Tang Dynasty FPGA development environment, Tang Prim
 
 ## Getting the Tang Dinasty IDE
 
-Just download the latest version of Tang Dynasty IDE for your OS (Windows, Linux) from [here](http://dl.sipeed.com/TANG/Primer/IDE/): it’s that simple.
+Just download the latest version of Tang Dynasty IDE for your OS (Windows, Linux) from [here](http://dl.sipeed.com/TANG/Primer/IDE): it’s that simple.
 
 ## Getting Example Code
 
