@@ -43,4 +43,4 @@ Pinout for **Old** Tang Primer Board.
 
 + [LicheeTang+RV.pdf](https://github.com/kprasadvnsi/tang-doc/releases/download/1.0.0/LicheeTang+RV.pdf)
 
-+ [sipeed-tang-primer-pins.pdf](sipeed-tang-primer-pins.pdf)
++ [sipeed-tang-primer-pins.pdf](https://github.com/kprasadvnsi/tang-doc/releases/download/1.0.0/sipeed-tang-primer-pins.pdf)
