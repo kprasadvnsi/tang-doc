@@ -1,6 +1,6 @@
 ---
 title: "Tang Primer board"
-date: 2019-02-15T20:10:53+05:30
+date: 2020-06-09T09:26:04+02:00
 weight: 5
 draft: false
 ---
@@ -42,3 +42,5 @@ Pinout for **Old** Tang Primer Board.
 + [Eagle_DataSheet_V2.8_english.pdf](https://github.com/kprasadvnsi/tang-doc/releases/download/1.0.0/Eagle_DataSheet_V2.8_english.pdf)
 
 + [LicheeTang+RV.pdf](https://github.com/kprasadvnsi/tang-doc/releases/download/1.0.0/LicheeTang+RV.pdf)
+
++ [sipeed-tang-primer-pins.pdf](sipeed-tang-primer-pins.pdf)
