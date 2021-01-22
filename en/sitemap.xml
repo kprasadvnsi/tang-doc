@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/hardware-overview/lichee-tang/</loc>
+    <lastmod>2020-06-09T09:26:04+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/risc-v-core/hummingbird/</loc>
+    <lastmod>2019-02-23T13:51:21+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/using-tang/using-gpio/</loc>
+    <lastmod>2019-02-15T20:14:28+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/getting-started/</loc>
+    <lastmod>2019-02-15T17:05:01+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/risc-v-core/picorv32/</loc>
+    <lastmod>2019-02-23T13:51:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/using-tang/using-microsd/</loc>
+    <lastmod>2019-02-15T20:15:43+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/hardware-overview/ov2640-camera/</loc>
+    <lastmod>2019-02-15T20:11:43+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/getting-started/requirements/</loc>
+    <lastmod>2019-02-15T19:15:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/hardware-overview/</loc>
+    <lastmod>2019-02-15T17:08:47+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/using-tang/using-lcd/</loc>
+    <lastmod>2019-02-15T20:16:10+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/hardware-overview/lcd-display/</loc>
+    <lastmod>2019-02-15T20:12:09+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/getting-started/installing-td-ide/</loc>
+    <lastmod>2019-02-15T19:18:45+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/using-tang/</loc>
+    <lastmod>2019-02-15T17:21:34+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/risc-v-core/</loc>
+    <lastmod>2019-02-23T13:44:08+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/using-tang/using-camera/</loc>
+    <lastmod>2019-02-15T20:16:04+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/hardware-overview/rv-debugger/</loc>
+    <lastmod>2019-02-15T20:12:26+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/getting-started/installing-usb-driver/</loc>
+    <lastmod>2019-02-15T19:22:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/dev-guide/</loc>
+    <lastmod>2019-02-25T13:53:55+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/using-tang/builtin-sdram/</loc>
+    <lastmod>2019-02-15T20:15:08+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/faq/</loc>
+    <lastmod>2019-02-25T13:54:07+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/contribute/</loc>
+    <lastmod>2019-02-25T13:54:24+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/dev-guide/building-rv-core/</loc>
+    <lastmod>2019-03-10T15:52:29+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/dev-guide/using-yosys/</loc>
+    <lastmod>2019-03-10T15:51:32+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/getting-started/getting-to-blinky/</loc>
+    <lastmod>2019-02-15T19:23:03+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/getting-started/installing-usb-driver/linux/</loc>
+    <lastmod>2019-02-15T19:21:27+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/getting-started/installing-usb-driver/windows/</loc>
+    <lastmod>2019-02-15T19:21:19+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/getting-started/installing-td-ide/linux/</loc>
+    <lastmod>2019-02-15T19:16:47+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/getting-started/installing-td-ide/windows/</loc>
+    <lastmod>2019-02-15T19:16:37+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://tang.sipeed.com/cn/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tang.sipeed.com/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/credits/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://tang.sipeed.com/cn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tang.sipeed.com/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://tang.sipeed.com/cn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tang.sipeed.com/en/"
+                />
+  </url>
+  
+</urlset>

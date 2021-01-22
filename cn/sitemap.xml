@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://tang.sipeed.com/cn/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tang.sipeed.com/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://tang.sipeed.com/cn/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/cn/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tang.sipeed.com/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://tang.sipeed.com/cn/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://tang.sipeed.com/cn/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tang.sipeed.com/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://tang.sipeed.com/cn/"
+                />
+  </url>
+  
+</urlset>

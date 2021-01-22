@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tang Primer Documentation on Documentation for Tang Primer</title>
+    <link>https://tang.sipeed.com/en/</link>
+    <description>Recent content in Tang Primer Documentation on Documentation for Tang Primer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://tang.sipeed.com/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Credits</title>
+      <link>https://tang.sipeed.com/en/credits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tang.sipeed.com/en/credits/</guid>
+      <description> Contributors Thanks to them  for making Open Source Software a better place !
+.ghContributors{ display:flex; flex-flow: wrap; align-content: flex-start } .ghContributors  div{ width: 50% ; display: inline-flex; margin-bottom: 5px; } .ghContributors  div label{ padding-left: 4px ; } .ghContributors  div span{ font-size: x-small; padding-left: 4px ; }   @kprasadvnsi 22 commits   @JanKok 6 commits   @Zigazou 2 commits   @lirc572 1 commits   </description>
+    </item>
+    
+  </channel>
+</rss>

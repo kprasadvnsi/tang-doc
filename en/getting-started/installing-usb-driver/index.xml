@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Installing USB Driver on Documentation for Tang Primer</title>
+    <link>https://tang.sipeed.com/en/getting-started/installing-usb-driver/</link>
+    <description>Recent content in Installing USB Driver on Documentation for Tang Primer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Feb 2019 19:22:17 +0530</lastBuildDate>
+    
+	<atom:link href="https://tang.sipeed.com/en/getting-started/installing-usb-driver/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PicoRV32 Core on Documentation for Tang Primer</title>
+    <link>https://tang.sipeed.com/en/risc-v-core/picorv32/</link>
+    <description>Recent content in PicoRV32 Core on Documentation for Tang Primer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Feb 2019 13:51:40 +0530</lastBuildDate>
+    
+	<atom:link href="https://tang.sipeed.com/en/risc-v-core/picorv32/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

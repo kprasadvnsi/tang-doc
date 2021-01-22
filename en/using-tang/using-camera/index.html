@@ -1,0 +1,1655 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.54.0" />
+    <meta name="description" content="Documentation for Tang Primer">
+<meta name="author" content="Kali Prasad">
+
+    <link rel="shortcut icon" href="https://tang.sipeed.com/images/favicon.jpg" type="image/x-icon" />
+<link rel="icon" href="https://tang.sipeed.com/images/favicon.jpg" type="image/x-icon" />
+    <title>Using Camera Module :: Documentation for Tang Primer</title>
+
+    
+    <link href="https://tang.sipeed.com/css/nucleus.css?1611288170" rel="stylesheet">
+    <link href="https://tang.sipeed.com/css/fontawesome-all.min.css?1611288170" rel="stylesheet">
+    <link href="https://tang.sipeed.com/css/hybrid.css?1611288170" rel="stylesheet">
+    <link href="https://tang.sipeed.com/css/featherlight.min.css?1611288170" rel="stylesheet">
+    <link href="https://tang.sipeed.com/css/perfect-scrollbar.min.css?1611288170" rel="stylesheet">
+    <link href="https://tang.sipeed.com/css/auto-complete.css?1611288170" rel="stylesheet">
+    <link href="https://tang.sipeed.com/css/theme.css?1611288170" rel="stylesheet">
+    <link href="https://tang.sipeed.com/css/hugo-theme.css?1611288170" rel="stylesheet">
+    
+      <link href="https://tang.sipeed.com/css/theme-red.css?1611288170" rel="stylesheet">
+    
+
+    <script src="https://tang.sipeed.com/js/jquery-2.x.min.js?1611288170"></script>
+
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/en/using-tang/using-camera/">
+    <nav id="sidebar" class="showVisitedLinks">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://tang.sipeed.com/">
+    <svg
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 462 100"
+    height="100%"
+    width="100%"
+    xml:space="preserve"
+    id="svg2"
+    version="1.1"><metadata
+      id="metadata8"><rdf:RDF><cc:Work
+          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+      id="defs6"><clipPath
+        id="clipPath18"
+        clipPathUnits="userSpaceOnUse"><path
+          id="path16"
+          d="M 0,75.099 H 347.166 V 0 H 0 Z" /></clipPath></defs><g
+      transform="matrix(1.3333333,0,0,-1.3333333,0,100.13173)"
+      id="g10"><g
+        id="g12"><g
+          clip-path="url(#clipPath18)"
+          id="g14"><g
+            transform="translate(59.1543,11.1465)"
+            id="g20"><path
+              id="path22"
+              style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+              d="m 0,0 h -42.591 c -3.355,0 -6.075,2.72 -6.075,6.075 v 42.591 c 0,3.355 2.72,6.075 6.075,6.075 H 0 c 3.355,0 6.075,-2.72 6.075,-6.075 V 6.075 C 6.075,2.72 3.355,0 0,0" /></g><g
+            transform="translate(62.2246,17.5723)"
+            id="g24"><path
+              id="path26"
+              style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+              d="m 0,0 c 0,-1.887 -1.534,-3.421 -3.421,-3.421 h -41.89 c -1.886,0 -3.421,1.534 -3.421,3.421 v 41.89 c 0,1.886 1.535,3.421 3.421,3.421 h 41.89 C -1.534,45.311 0,43.776 0,41.89 Z m -3.421,48.315 h -41.89 c -3.543,0 -6.425,-2.882 -6.425,-6.425 V 0 c 0,-3.543 2.882,-6.426 6.425,-6.426 h 41.89 c 3.543,0 6.425,2.883 6.425,6.426 v 41.89 c 0,3.543 -2.882,6.425 -6.425,6.425" /></g><g
+            transform="translate(42.9316,42.6889)"
+            id="g28"><path
+              id="path30"
+              style="fill:#dc1010;fill-opacity:1;fill-rule:nonzero;stroke:none"
+              d="M 0,0 H -14.536 V 8.622 H 8.562 v 8.344 H -10.184 L -22.839,4.311 -22.88,4.353 v -0.08 l 0.038,0.038 12.655,-12.655 H 4.39 v -8.622 H -18.708 V -25.31 H 0.05 l 12.656,12.655 0.028,-0.029 v 0.108 l -0.079,-0.079 z" /></g><g
+            transform="translate(18.1948,56.7969)"
+            id="g32"><path
+              id="path34"
+              style="fill:#dc1010;fill-opacity:1;fill-rule:nonzero;stroke:none"
+              d="M 0,0 C 0,1.024 0.833,1.857 1.856,1.857 2.88,1.857 3.713,1.024 3.713,0 3.713,-1.024 2.88,-1.857 1.856,-1.857 0.833,-1.857 0,-1.024 0,0 m 5.716,0 c 0,2.128 -1.731,3.86 -3.86,3.86 -2.127,0 -3.859,-1.732 -3.859,-3.86 0,-2.128 1.732,-3.859 3.859,-3.859 2.129,0 3.86,1.731 3.86,3.859" /></g><g
+            transform="translate(97.4644,23.9009)"
+            id="g36"><path
+              id="path38"
+              style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+              d="M 0,0 V -9.533 H 21.433 L 35.892,4.926 35.925,4.894 V 5.017 L 35.834,4.926 21.375,19.386 H 4.768 v 9.851 h 26.39 V 38.77 H 9.739 L -4.719,24.312 -4.767,24.358 v -0.09 L -4.724,24.312 9.736,9.851 H 26.391 V 0 Z" /></g><g
+            transform="translate(170.9829,43.2788)"
+            id="g40"><path
+              id="path42"
+              style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+              d="M 0,0 V -9.519 H 14.497 L 28.79,4.775 V 5.098 L 14.505,19.384 H 2.369 l -14.27,-14.27 v -34.025 h 9.517 V 9.867 H 19.272 V 0 Z" /></g><path
+            id="path44"
+            style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+            d="m 218.046,33.76 h 24.031 v 9.519 h -24.031 z" /><g
+            transform="translate(220.5307,62.6631)"
+            id="g46"><path
+              id="path48"
+              style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+              d="M 0,0 -14.387,-14.387 V -33.9 L 0.008,-48.295 h 21.538 v 9.517 H -4.87 V -9.517 H 21.546 V 0 Z" /></g><path
+            id="path50"
+            style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+            d="m 263.496,33.765 h 24.032 v 9.517 h -24.032 z" /><g
+            transform="translate(265.981,62.6675)"
+            id="g52"><path
+              id="path54"
+              style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+              d="M 0,0 -14.387,-14.388 V -33.9 L 0.008,-48.296 h 21.538 v 9.518 H -4.87 V -9.519 H 21.546 V 0 Z" /></g><path
+            id="path56"
+            style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+            d="m 297.044,14.376 h 9.517 v 48.295 h -9.517 z" /><g
+            transform="translate(323.7451,62.6709)"
+            id="g58"><path
+              id="path60"
+              style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+              d="M 0,0 H -14.799 V -9.517 H 4.473 v -29.261 h -19.272 v -9.517 h 14.791 l 13.998,13.999 v 20.306 z" /></g><path
+            id="path62"
+            style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+            d="m 140.046,53.133 h 9.519 v 9.535 h -9.519 z" /><path
+            id="path64"
+            style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+            d="m 140.046,14.363 h 9.519 v 28.911 h -9.519 z" /></g></g></g></svg> 
+</a>
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="https://tang.sipeed.com/js/lunr.min.js?1611288170"></script>
+<script type="text/javascript" src="https://tang.sipeed.com/js/auto-complete.js?1611288170"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/tang.sipeed.com\/\/en";
+    
+</script>
+<script type="text/javascript" src="https://tang.sipeed.com/js/search.js?1611288170"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/en/getting-started/" title="Getting Started" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/getting-started/">
+          <b>1. </b>Getting Started
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/en/getting-started/requirements/" title="Requirements" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/getting-started/requirements/">
+          Requirements
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/en/getting-started/installing-td-ide/" title="Installing Tang Dynasty IDE" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/getting-started/installing-td-ide/">
+          Installing Tang Dynasty IDE
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/en/getting-started/installing-td-ide/linux/" title="Install on Linux" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/getting-started/installing-td-ide/linux/">
+          Install on Linux
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/en/getting-started/installing-td-ide/windows/" title="Install on Windows" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/getting-started/installing-td-ide/windows/">
+          Install on Windows
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/en/getting-started/installing-usb-driver/" title="Installing USB Driver" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/getting-started/installing-usb-driver/">
+          Installing USB Driver
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/en/getting-started/installing-usb-driver/linux/" title="Install TD driver on Linux" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/getting-started/installing-usb-driver/linux/">
+          Install TD driver on Linux
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/en/getting-started/installing-usb-driver/windows/" title="Install TD driver on Windows" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/getting-started/installing-usb-driver/windows/">
+          Install TD driver on Windows
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/en/getting-started/getting-to-blinky/" title="Getting to Blinky" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/getting-started/getting-to-blinky/">
+          Getting to Blinky
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/en/hardware-overview/" title="Hardware Overview" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/hardware-overview/">
+          <b>2. </b>Hardware Overview
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/en/hardware-overview/lichee-tang/" title="Tang Primer board" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/hardware-overview/lichee-tang/">
+          Tang Primer board
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/en/hardware-overview/ov2640-camera/" title="OV2640 Camera Module" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/hardware-overview/ov2640-camera/">
+          OV2640 Camera Module
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/en/hardware-overview/lcd-display/" title="LCD Display module" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/hardware-overview/lcd-display/">
+          LCD Display module
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/en/hardware-overview/rv-debugger/" title="RV Debugger" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/hardware-overview/rv-debugger/">
+          RV Debugger
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/en/using-tang/" title="Using Tang Primer" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/using-tang/">
+          <b>3. </b>Using Tang Primer
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/en/using-tang/using-gpio/" title="Using Tang&#39;s GPIO" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/using-tang/using-gpio/">
+          Using Tang&#39;s GPIO
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/en/using-tang/using-microsd/" title="Using MicroSD Card" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/using-tang/using-microsd/">
+          Using MicroSD Card
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/en/using-tang/using-lcd/" title="Using LCD display" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/using-tang/using-lcd/">
+          Using LCD display
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/en/using-tang/using-camera/" title="Using Camera Module" class="dd-item 
+        parent
+        active
+        
+        ">
+      <a href="https://tang.sipeed.com/en/using-tang/using-camera/">
+          Using Camera Module
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/en/using-tang/builtin-sdram/" title="Using Built-in SDRAM" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/using-tang/builtin-sdram/">
+          Using Built-in SDRAM
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/en/risc-v-core/" title="Working with RISC-V" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/risc-v-core/">
+          <b>4. </b>Working with RISC-V
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/en/risc-v-core/hummingbird/" title="Hummingbrid Core" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/risc-v-core/hummingbird/">
+          Hummingbrid Core
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/en/risc-v-core/picorv32/" title="PicoRV32 Core" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/risc-v-core/picorv32/">
+          PicoRV32 Core
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/en/dev-guide/" title="Developer Guide" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/dev-guide/">
+          <b>5. </b>Developer Guide
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/en/dev-guide/building-rv-core/" title="Buinding RISC-V SoftCore" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/dev-guide/building-rv-core/">
+          Buinding RISC-V SoftCore
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/en/dev-guide/using-yosys/" title="Using Yosys with Tang Primer" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/dev-guide/using-yosys/">
+          Using Yosys with Tang Primer
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/en/faq/" title="TroubleshootingFAQ" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/faq/">
+          <b>6. </b>TroubleshootingFAQ
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/en/contribute/" title="Contribute" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://tang.sipeed.com/en/contribute/">
+          <b>7. </b>Contribute
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li> 
+                  <a class="padding" href="https://github.com/Lichee-Pi"><i class='fab fa-fw fa-github'></i> Github repo</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://shop365481095.taobao.com/index.htm"><i class='fas fa-fw fa-shopping-bag'></i> Store</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://tang.sipeed.com/en/credits"><i class='fas fa-fw fa-bullhorn'></i> Credits</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="prefooter">
+      <hr/>
+      <ul>
+      
+        <li>
+          <a class="padding">
+            <i class="fas fa-language fa-fw"></i>
+          <div class="select-style">
+            <select id="select-language" onchange="location = this.value;">
+          
+          
+          
+              
+              
+                  
+                    
+                    
+                      <option id="en" value="/en/using-tang/using-camera/" selected>English</option>
+                    
+                  
+              
+                  
+              
+          
+        </select>
+        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          width="255px" height="255px" viewBox="0 0 255 255" style="enable-background:new 0 0 255 255;" xml:space="preserve">
+          <g>
+            <g id="arrow-drop-down">
+              <polygon points="0,63.75 127.5,191.25 255,63.75 		" />
+            </g>
+          </g>
+        </svg>
+        </div>
+        </a>
+        </li>
+      
+      
+      
+        <li><a class="padding" href="#" data-clear-history-toggle=""><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+      
+      </ul>
+    </section>
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="http://getgrav.org">Grav</a> and <a href="http://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                  
+                  
+                  
+                  <div id="top-github-link">
+                    <a class="github-link" title='Edit this page' href="https://github.com/kprasadvnsi/tang-doc/tree/master/content/using-tang/using-camera/_index.en.md" target="blank">
+                      <i class="fas fa-code-branch"></i>
+                      <span id="top-github-link-text">Edit this page</span>
+                    </a>
+                  </div>
+                  
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='https://tang.sipeed.com/en/'>Tang Primer Documentation</a> > <a href='https://tang.sipeed.com/en/using-tang/'>Using Tang Primer</a> > Using Camera Module
+          
+         
+          
+         
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+
+        
+        <div id="body-inner">
+          
+            <h1>Using Camera Module</h1>
+          
+
+        
+
+
+
+
+<footer class=" footline" >
+	
+</footer>
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="https://tang.sipeed.com/en/using-tang/using-lcd/" title="Using LCD display"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="https://tang.sipeed.com/en/using-tang/builtin-sdram/" title="Using Built-in SDRAM" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="https://tang.sipeed.com/js/clipboard.min.js?1611288170"></script>
+    <script src="https://tang.sipeed.com/js/perfect-scrollbar.min.js?1611288170"></script>
+    <script src="https://tang.sipeed.com/js/perfect-scrollbar.jquery.min.js?1611288170"></script>
+    <script src="https://tang.sipeed.com/js/jquery.sticky.js?1611288170"></script>
+    <script src="https://tang.sipeed.com/js/featherlight.min.js?1611288170"></script>
+    <script src="https://tang.sipeed.com/js/html5shiv-printshiv.min.js?1611288170"></script>
+    <script src="https://tang.sipeed.com/js/highlight.pack.js?1611288170"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://tang.sipeed.com/js/modernizr.custom.71422.js?1611288170"></script>
+    <script src="https://tang.sipeed.com/js/learn.js?1611288170"></script>
+    <script src="https://tang.sipeed.com/js/hugo-learn.js?1611288170"></script>
+
+    <link href="https://tang.sipeed.com/mermaid/mermaid.css?1611288170" type="text/css" rel="stylesheet" />
+    <script src="https://tang.sipeed.com/mermaid/mermaid.js?1611288170"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>
