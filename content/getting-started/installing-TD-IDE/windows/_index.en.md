@@ -8,7 +8,7 @@ Once you have downloaded the installer, open it and you will see a welcome scree
 
 ![welcome](/getting-started/installing-TD-IDE/windows/images/a.png "Welcome screen")
 
-On this screen you can choose where you want to install TD IDE. By default it installs to C:\Anlogic\TD4.3.633\
+On this screen you can choose where you want to install TD IDE. By default it installs to C:\Anlogic\TDx.y.z\ where "x.y.z" is the TD version.
 
 ![Install location](/getting-started/installing-TD-IDE/windows/images/b.png "Install location")
 
@@ -23,6 +23,8 @@ When it's finished installing you should see this following screen. Click Finish
 Go to start menu and click on TD icon to start the IDE.
 
 ![TD in Menu](/getting-started/installing-TD-IDE/windows/images/e.png "TD in Menu")
+
+If you get an error when running TD saying "msvcr100.dll is missing", you may have to install "Microsoft Visual C++ 2010 Service Pack 1 Redistributable Package MFC Security Update" to solve the issue.
 
 ![TD IDE welcome screen](/getting-started/installing-TD-IDE/windows/images/f.png "TD IDE welcome screen")
 
